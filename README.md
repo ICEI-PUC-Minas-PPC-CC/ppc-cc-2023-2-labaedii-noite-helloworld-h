@@ -6,10 +6,11 @@
 
 ## Integrantes
 
-- Jeff Bezos
-- Bill Gates
-- Larry Ellison
-- Mark Zuckerberg
+- Giovani Guedes Silva Jacintho
+- Letícia Moreira Pinto
+- Maria Eduarda Microni Quites Ferreira
+- Victor Cesar Silvares de Matos
+  
 
 # Documentação
 
