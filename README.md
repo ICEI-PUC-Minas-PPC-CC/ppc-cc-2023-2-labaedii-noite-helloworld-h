@@ -8,7 +8,6 @@
 
 - Giovani Guedes Silva Jacintho
 - Letícia Moreira Pinto
-- Maria Eduarda Microni Quites Ferreira
 - Victor Cesar Silvares de Matos
   
 
