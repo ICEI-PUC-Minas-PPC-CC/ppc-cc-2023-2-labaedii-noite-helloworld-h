@@ -1,0 +1,69 @@
+-Programa Cadeira de Rodas-
+
+Queremos fazer um programa onde controlaremos um estoque de objetos de ajuda médica, como por exemplo cadeiras de rodas, muletas e etc.
+
+O que acontece atualmente (caso real): 
+
+Nomearemos o trabalhador do estabelecimento como "Pedro";
+
+Pedro tem um conhecido que precisa de uma cadeira de banho e em estoque tem 1 disponivel, então ele pegou essa cadeira e emprestou ao seu
+conhecido, porém, com o tempo o seu conhecido se recuperou e não necessita mais da cadeira de banho, mas Pedro não lembrou de verificar como
+esta seu amigo e com isso a cadeira ficou esquecida em algum canto da casa de seu amigo por um longo tempo, que inclusive, as vezes Pedro
+esquece de pegar muitos itens de volta ou até mesmo esses amigos emprestam pra outros e se perde o paradeiro do objeto.
+
+Solução proposta:
+
+Etapa 1:
+Criar um sistema onde seja possivel cadastrar todos os objetos que o estabelecimento tenha adquirido, incluindo nome, numero de registro, data de quando foi registrado, valor, tipo
+deste objeto e quantidade de objetos desse mesmo tipo, juntamente de uma parte onde seja possivel além de cadastrar, poder também alterar esses objetos ou até mesmo exclui-los.
+
+Com essa parte de cadastro de objetos pronto, poderemos criar também um cadastro para cada cliente que pegar algo emprestado, onde ele tera um contrato de emprestimo, assim ficará
+registrado os dados do cliente (nome, cpf, endereço, data de nascimento, data de cadastro) junto dos dados do objeto em um contrato de emprestimo que terá uma data de expiração podendo
+ser renovada através de novo contrato ou renovação do existente.
+
+Assim teremos um meio de rastreamento dos objetos e até mesmo como multar ou aplicar alguma medida administrativa caso o cliente quebre o contrato emprestando o objeto a outrem.
+
+
+
+void exibirMenu()
+
+{
+
+    printf( "Selecione uma opção: \n");
+
+    printf ("1. Produto\n");
+
+    printf ("2. Pessoa\n");
+
+    printf ("3. Emprestimo\n");
+
+    printf ("4. Sair\n");
+
+  scanf ("%d", opcao_menu);
+
+  opcaoSelecionadaMenu(opcao_menu);
+
+}
+
+
+void exibirSubMenu ()
+
+{
+
+    printf( "Selecione uma opção: \n");
+
+    printf ("1. Incluir\n");
+
+    printf ("2. Excluir\n");
+
+    printf ("3. Alterar\n");
+
+    printf ("4. Sair\n");
+
+  scanf ("%d", opcao_sub_menu);
+
+  opcaoSelecionadaSubMenu(opcao_sub_menu);
+
+}
+
+
