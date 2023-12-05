@@ -1,0 +1,22 @@
+Structs para o projeto do programa de cadeira de rodas:
+
+typedef struct{
+    char nomeP[100];
+    int idadeP;
+    int cpf;
+    char endereco[300];
+    char diaCadastro[10]; //dd/mm/aaaa
+}Pessoa;
+
+
+typedef struct{
+    char nomeO[100];
+    char categoria[50];
+    char dataRegistro[10];
+    int quantidade;
+    int valor;
+    int numeroRegistro;
+}Objeto;
+
+Iriamos ter também um sistema de contrato onde seria incluido a pessoa contratante com as suas respectivas informações juntamente
+do item a ser alugado, porém não sabiamos como seria feito isso, se seria através de struct, puxar um arquivo ou algo do tipo...
